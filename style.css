@@ -6,6 +6,15 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+.primary-btn{
+    color: #FFF;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: 0;
+    padding: 20px 43px;
+    font-size: 20px;
+    font-weight: 700;
+}
 /* header style */
 .header-content{
     display: flex;
@@ -35,7 +44,7 @@ body{
     font-weight: 400;
 }
 
-.header-btn{
+.primary-btn{
     color: #FFF;
     background-color: #E55473;
     border-radius: 8px;
@@ -108,16 +117,158 @@ margin-left: 24px;
     text-decoration-line: underline;
 }
 
-.hot-deal{
+.service{
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     display: flex;
     justify-content: space-around;
-    margin: 0 240px 0 240px ;
+    margin: 0 240px 128px 240px ;
     padding: 86px 175px 87px 175px;
     text-align: center;
 }
 
+.hot-deal{
+    background-color:  rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 429px 100px 395px;
+}
+.hot-deal-about{
+    padding-right: 186px;
+}
+.hot-deal-tittle{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    
+}
 
+.hot-deal-off{
+    color: #E55473;
+}
 
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+.primary-btn{          /* problem to solve */
+display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+}
 
+.instagram-about{
+ text-align: center;
+}
+.instagram-tittle{
+    margin-bottom: 24px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.instagram-img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 128px;
+}
+
+.last-details{
+    background-image: url(Rectangle\ 9.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.last-details-about{
+    text-align: center;
+}
+.last-details-tittle{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.last-details-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.last-details-email{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    border: none;
+    padding-left: 30px;
+}
+.last-details-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+}
+.last-details-align{
+    padding: 175px;
+
+}
+footer{
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 128px;
+}
+.primary-color{
+    color: #E55473
+}
+.fotter-tittle{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+        
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
