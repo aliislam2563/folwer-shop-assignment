@@ -102,7 +102,21 @@ margin-left: 24px;
 .brd-green-img{
     margin: 67px 99px 0 99px;
 }
+.pink-flower{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
 
+.hot-deal{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    margin: 0 240px 0 240px ;
+    padding: 86px 175px 87px 175px;
+    text-align: center;
+}
 
 
 
