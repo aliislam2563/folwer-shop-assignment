@@ -6,6 +6,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+/* primary button design */
 .primary-btn{
     color: #FFF;
     background-color: #E55473;
@@ -39,27 +40,14 @@ body{
 .header-description{
     margin-bottom: 32px;
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
 }
-
-.primary-btn{
-    color: #FFF;
-    background-color: #E55473;
-    border-radius: 8px;
-    border: 0;
-    padding: 20px 43px;
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-}
-/* main style */
+/* margin in our feature, service, instagram, get the deal */
 .main-cmn{
     margin: 128px 240px;
 }
-
+/* Our Featured Flowers style  */
 .Our-Featured-Folwers{
     text-align: center;
 }
@@ -116,7 +104,7 @@ margin-left: 24px;
     font-weight: 700;
     text-decoration-line: underline;
 }
-
+/* service style  */
 .service{
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
@@ -126,7 +114,7 @@ margin-left: 24px;
     padding: 86px 175px 87px 175px;
     text-align: center;
 }
-
+/* Hot Deal style */
 .hot-deal{
     background-color:  rgba(229, 84, 115, 0.05);
     display: flex;
@@ -159,22 +147,11 @@ margin-left: 24px;
     flex-direction: column;
     margin-bottom: 32px;
 }
-.primary-btn{          /* problem to solve */
-display: inline-flex;
-padding: 20px 43px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 8px;
-background: #E55473;
-color: #FFF;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-border: none;
+.signup-btn{
+    display: flex;
+    justify-content: center;
 }
-
+/* Instagram style */
 .instagram-about{
  text-align: center;
 }
@@ -197,7 +174,7 @@ border: none;
     justify-content: space-around;
     margin-bottom: 128px;
 }
-
+/* Get The Latest Deals style */
 .last-details{
     background-image: url(Rectangle\ 9.png);
     background-position: cover;
@@ -233,17 +210,49 @@ border: none;
     border: none;
     padding-left: 30px;
 }
-.last-details-btn{
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 8px;
-    background: #E55473;
-}
 .last-details-align{
     padding: 175px;
-
 }
+/* review style */
+.review{
+    text-align: center;
+    margin-bottom: 128px;
+}
+.review-tittle{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.review-score{
+    font-size: 24px;
+    font-weight: 400;
+}
+.start{
+    color: gold;
+    font-size: xx-large;
+    margin-top: -10px;
+    margin-bottom: 16px;
+}
+.review-txt{
+    font-size: 16px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.review-area{
+    padding: 10px;
+    padding-top: 20px;
+    margin-bottom: 12px;
+    
+}
+.cncl-btn{
+    color: #E55473;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #E55473;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* footer style */
 footer{
     background-color: black;
     color: #FFFFFF;
